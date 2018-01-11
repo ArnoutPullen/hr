@@ -1,6 +1,5 @@
 import math
 
-
 # Opdracht 1
 def opdracht1():
     def p():
@@ -412,7 +411,16 @@ def opdracht15():
     # b()
 
     def c():
-
+        def replace_spacing(str):
+            return opdracht5c(str)
+        def replace_numbers(str):
+            return opdracht5d(str)
+        def dot(str):
+            return addDot(str)
+        def capitalize(str):
+            return opdracht5b(str)
+        x = then(then(then(replace_spacing, replace_numbers), dot), capitalize)(random_string)
+        print(x)
     c()
 
 opdracht15()
